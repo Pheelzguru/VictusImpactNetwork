@@ -14,7 +14,14 @@ overflow-x:hidden;
 
 }
 
+.navbar{
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items:center;
 
+    background:#1337B8;
+    padding:15px 30px;
+}
 .navbar{
 
 position:absolute;
@@ -129,7 +136,7 @@ display:none;
 
 flex-direction:column;
 
-background:#f5a623;
+background:rgb(6, 48, 173);
 
 padding:20px;
 
