@@ -12,70 +12,77 @@
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body>
+<body class="home-page">
 
 
-<header>
+<header class="header">
 
-<nav class="navbar">
+    <nav class="navbar">
 
-<div class="mobile-menu">
-☰
-</div>
-
-<div class="left-nav">
-
-<ul class="nav-links">
-
-<li><a href="#">Home</a></li>
-<li><a href="#">Programs</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">News</a></li>
-<li><a href="https://web.facebook.com/profile.php?id=61578188768136">Contact</a></li>
-
-</ul>
-
-</div>
-
-
-<div class="center-logo">
-
-<img src="images/logo.png" alt="VINET">
-
-</div>
-
-<div class="right-nav">
-
-<div class="language-selector">
-
-    <div class="current-language">
-        <img id="current-flag"
-             src="https://flagcdn.com/w40/gb.png">
-        <span id="current-text">English</span>
-        <i class="fa-solid fa-chevron-down"></i>
-    </div>
-
-    <div class="language-menu">
-
-        <div class="language-option">
-            <img src="https://flagcdn.com/w40/fr.png">
-            <span>French</span>
+        <!-- LOGO LEFT -->
+        <div class="logo">
+            <img src="images/logo.png" alt="VINET Logo">
         </div>
 
-        <div class="language-option">
-            <img src="https://flagcdn.com/w40/es.png">
-            <span>Spanish</span>
+        <!-- NAVIGATION -->
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Who We Are</a></li>
+            <li><a href="focus-area.html">Focus Areas</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- LANGUAGE -->
+        <div class="language-selector">
+
+            <div class="current-language">
+
+                <img id="current-flag"
+                     src="https://flagcdn.com/w40/gb.png"
+                     alt="English">
+
+                <span id="current-text">English</span>
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </div>
+
+            <div class="language-menu">
+
+                <div class="language-option">
+                    <img src="https://flagcdn.com/w40/fr.png">
+                    <span>French</span>
+                </div>
+
+                <div class="language-option">
+                    <img src="https://flagcdn.com/w40/es.png">
+                    <span>Spanish</span>
+                </div>
+
+                <div class="language-option">
+                    <img src="https://flagcdn.com/w40/sa.png">
+                    <span>Arabic</span>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="language-option">
-            <img src="https://flagcdn.com/w40/ng.png">
-            <span>Hausa</span>
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
         </div>
 
-    </div>
+    </nav>
 
-</div>
-</nav>
+</header>
 
 <section class="hero">
 
@@ -92,9 +99,9 @@ style="background-image:url('images/picture1.jpeg')">
 
 <p>
 Towards building communities for sustainable impact <br>
-<br>
+</p>
 
-<button>Read More</button>
+<a class="hero-button" href="about.html">Read More</a>
 
 </div>
 
@@ -107,14 +114,14 @@ style="background-image:url('images/picture2.jpeg')">
 
 <div class="overlay">
 
-<h1>Empowering Future Leaders</h1>
+<h1>Empowering <br>Future Leaders</h1>
 
 <p>
 Creating opportunities for young people
 across Africa
 </p>
 
-<button>Explore</button>
+<a class="hero-button" href="focus-area.html">Explore</a>
 
 </div>
 
@@ -134,7 +141,7 @@ Developing impact through education
 and innovation
 </p>
 
-<button>Join Us</button>
+<a class="hero-button" href="volunteer.html">Join Us</a>
 
 </div>
 
@@ -191,13 +198,10 @@ and innovation
 </section>
 
 
-</header>
-
 <section class="mission-vision">
 
-  <h1>Victus Impact Network is a leading 
-    <br>Women and Youth Advocacy, 
-    <br>and Policy-Informed Organization</h1>
+  <h1>Advancing youth and women's development 
+    through advocacy and policy</h1>
 
 <div class="mv-card">
 
@@ -211,7 +215,7 @@ and innovation
 
 <p>
 A sustainable society where women and youth are empowered to drive 
-transformative impacts across generations
+transformative impacts across generations.
 </p>
 
 </div>
@@ -231,7 +235,7 @@ transformative impacts across generations
 <div class="green-line"></div>
 
 <p>
-To empower women and youth with the resources and platforms needed to co
+To empower women and youth with the resources and platforms needed to co-
 create sustainable solutions for a lasting change.
 </p>
 
@@ -251,14 +255,14 @@ create sustainable solutions for a lasting change.
 
 
 
-<div class="program-grid">
+<div class="home-program-grid">
 
 
-<div class="program-card">
+<div class="home-program-card">
 
 <img src="images/Governance.jpg">
 
-<div class="program-overlay">
+<div class="home-program-overlay">
 
 <h2>
 Governance
@@ -268,7 +272,7 @@ Governance
 
 </div>
 
-<div class="program-icon bluee">
+<div class="home-program-icon bluee">
 
 <i class="fa-solid fa-building-columns"></i>
 
@@ -279,11 +283,11 @@ Governance
 
 
 
-<div class="program-card">
+<div class="home-program-card">
 
-<img src="images/peacebuillding.jpg">
+<img src="images/peace building...jpg">
 
-<div class="program-overlay">
+<div class="home-program-overlay">
 
 <h2>
 Peace<br>
@@ -294,7 +298,7 @@ Building
 
 </div>
 
-<div class="program-icon sky">
+<div class="home-program-icon sky">
 
 <i class="fa-solid fa-handshake-angle"></i>
 
@@ -305,11 +309,11 @@ Building
 
 
 
-<div class="program-card">
+<div class="home-program-card">
 
 <img src="images/Gender Equality.jpg">
 
-<div class="program-overlay">
+<div class="home-program-overlay">
 
 <h2>
 Gender<br>
@@ -320,7 +324,7 @@ Equality
 
 </div>
 
-<div class="program-icon orange">
+<div class="home-program-icon orange">
 
 <i class="fa-solid fa-venus-mars"></i>
 
@@ -332,11 +336,11 @@ Equality
 
 
 
-<div class="program-card">
+<div class="home-program-card">
 
 <img src="images/Education.jpg">
 
-<div class="program-overlay">
+<div class="home-program-overlay">
 
 <h2>
 Education
@@ -346,7 +350,7 @@ Education
 
 </div>
 
-<div class="program-icon purple">
+<div class="home-program-icon purple">
 
 <i class="fa-solid fa-book-open-reader"></i>
 
@@ -361,16 +365,19 @@ Education
 
 <section class="stats">
 
+    <h2 class="section-title">Impact At a Glance</h2>
+    <div class="blue-line"></div>
+
     <div class="stats-grid">
 
         <div class="stat-box">
-            <h2 class="counter" data-target="9057">0</h2>
+            <h2 class="counter" data-target="25000">0</h2>
             <p>Persons Reached</p>
         </div>
 
         <div class="stat-box">
-            <h2 class="counter" data-target="11">0</h2>
-            <p>Training Sessions</p>
+            <h2 class="counter" data-target="1">0</h2>
+            <p>Years of impact</p>
         </div>
 
         <div class="stat-box">
@@ -379,8 +386,8 @@ Education
         </div>
 
         <div class="stat-box">
-            <h2 class="counter" data-target="26">0</h2>
-            <p>Strategic Partnerships</p>
+            <h2 class="counter" data-target="2">0</h2>
+            <p>Projects Implemented</p>
         </div>
 
     </div>
@@ -532,9 +539,7 @@ Education
 <img src="images/logo.png" alt="VINET Logo">
 
 <p>
-Empowering youths and women to drive
-transformative impact through peacebuilding,
-leadership, inclusion and sustainable development.
+To empower women and youth with the resources and platforms needed to co-create sustainable solutions for a lasting change.
 </p>
 
 
@@ -565,16 +570,17 @@ leadership, inclusion and sustainable development.
 class="footer-email">
 
 victusimpactnetwork@gmail.com <br>
-+234 708 669 4359
++234 708 669 4359 <br>
++234 706 239 1711
 
 </a>
 
 
 <p class="footer-address">
 
-Third Complex Building,
-          No.10 Adjacent Dan Dubai Plaza,
-          Bauchi State, Nigeria.
+Goodluck Ebele Jonathan Drive, 
+#10 Third Complex, Beside Dan Dubai Plaza, 
+Sabon Kaura Bauchi, Bauchi State, Nigeria.
 
 </p>
 
@@ -588,13 +594,13 @@ Third Complex Building,
 
 <h3>About Us</h3>
 
-<a href="#">Who We Are</a>
+<a href="about.html">Who We Are</a>
 
-<a href="#">Our Focus Area</a>
+<a href="focus-area.html">Our Focus Area</a>
 
-<a href="#">Our Programs</a>
+<a href="programs.html">Our Programs</a>
 
-<a href="#">Our Projects</a>
+<a href="project.html">Our Projects</a>
 
 </div>
 
@@ -606,13 +612,13 @@ Third Complex Building,
 
 <h3>Media</h3>
 
-<a href="#">News</a>
+<a href="news.html">News</a>
 
-<a href="#">Gallery</a>
+<a href="gallery.html">Gallery</a>
 
-<a href="#">Events</a>
+<a href="events.html">Events</a>
 
-<a href="#">Publications</a>
+<a href="publication.html">Publications</a>
 
 </div>
 
@@ -621,13 +627,13 @@ Third Complex Building,
 
 <h3>Get <br>Involved</h3>
 
-<a href="#">Volunteer</a>
+<a href="volunteer.html">Volunteer</a>
 
-<a href="#">Donate</a>
+<a href="donate.html">Donate</a>
 
-<a href="#">Partner With Us</a>
+<a href="partner.html">Partner With Us</a>
 
-<a href="#">Contact Us</a>
+<a href="privacypolicy.html">Data Privacy policy</a>
 
 </div>
 
